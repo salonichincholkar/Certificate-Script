@@ -9,16 +9,13 @@
   "scripts": {
     "test": "mocha test/ --reporter mochawesome"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chromedriver": "^123.0.4",
-    "selenium-webdriver": "^4.19.0"
-  },
-  "devDependencies": {
     "chai": "^5.1.0",
+    "chromedriver": "^123.0.4",
     "mocha": "^10.4.0",
-    "mochawesome": "^7.1.3"
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.19.0"
   }
 }
